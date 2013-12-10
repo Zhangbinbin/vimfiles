@@ -108,6 +108,7 @@ please let me know if you have any issues.
 * [zen-coding](https://github.com/mattn/zencoding-vim) : A web-developer’s toolkit that can greatly improve your HTML & CSS workflow
 * [vim-javascript](https://github.com/pangloss/vim-javascript) : Provides syntax and indent plugins.
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) : CoffeeScript support for vim.
+* [c.vim](http://www.vim.org/scripts/script.php?script_id=213) :  C/C++ IDE --  Write and run programs. Insert statements, idioms, comments etc.
 
 ## Screenshot
 
