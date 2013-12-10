@@ -1,0 +1,861 @@
+[33mcommit 41da4be238c404f6f39f4d22844665ccdeb867d0[m
+Author: BINBIN <yugong0391@gmail.com>
+Date:   Mon Nov 25 17:36:15 2013 +0800
+
+    Delete #vimrc#
+
+[33mcommit cf5aeef8c69bcdf6b36c60949659fd48e9354948[m
+Author: BINBIN <yugong0391@gmail.com>
+Date:   Mon Nov 25 17:35:56 2013 +0800
+
+    Delete #README.md#
+
+[33mcommit 4aa9c5bf114c556f4cf0ddb215230b68c18c2a8b[m
+Merge: 587b01f 346edd0
+Author: Zhangbinbin <yugong0391@gmail.com>
+Date:   Mon Nov 25 16:22:42 2013 +0800
+
+    test merge
+
+[33mcommit 587b01faa40daf1be00eda975f706b9eb799b74b[m
+Author: Zhangbinbin <yugong0391@gmail.com>
+Date:   Mon Nov 25 16:00:49 2013 +0800
+
+    test
+
+[33mcommit 49c2a067c8715b871b286a5f5e7679551633907f[m
+Author: Zhangbinbin <yugong0391@gmail.com>
+Date:   Mon Nov 25 15:57:38 2013 +0800
+
+    delete old files
+
+[33mcommit 933c7ac39e2c9cbbd5347fe8cd96db66797e96a4[m
+Author: Zhangbinbin <yugong0391@gmail.com>
+Date:   Fri Nov 22 16:44:49 2013 +0800
+
+    branch server test
+
+[33mcommit c4245ba598f9453e4292c8abab53f3db7d8a3f34[m
+Author: Zhangbinbin <yugong0391@gmail.com>
+Date:   Fri Aug 16 17:27:51 2013 +0800
+
+    change the vimrc
+
+[33mcommit 346edd011cc69ab9906ffc0a354af97ce1a9b59b[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Aug 6 11:47:39 2013 +0800
+
+    Update screenshot
+
+[33mcommit 4c16fe80ffa6f75f5814e6eceeaada65401e9113[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Jul 17 10:44:32 2013 +0800
+
+    Update vimrc
+
+[33mcommit 7c33e48835ce7e2294353ede204db11d000a86fd[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Jul 17 10:43:33 2013 +0800
+
+    Add splitjoin plugin
+
+[33mcommit 553b69a45b955539ee513c67f29ada25875dd036[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Fri Apr 19 11:31:13 2013 +0800
+
+    4 spaces as indenting for scss files
+
+[33mcommit 7625ddc11e8a46b70a0349b07ce2e3d645798f79[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 18 11:29:00 2013 +0800
+
+    Update plugins
+
+[33mcommit 54d7c3465049cba156e63a2ad472cb8f59fe7f79[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 18 01:45:37 2013 +0800
+
+    Update bundle/indent-line
+
+[33mcommit f40bfc9b2d5df17cd8fecf5b4b394e403c0a6276[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 18 01:44:51 2013 +0800
+
+    4 spaces as indenting for html files
+
+[33mcommit 449ab0bf0c817f59bb411c7015c2e63978809b94[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Apr 14 16:11:31 2013 +0800
+
+    Add vim-coffee-script plugin
+
+[33mcommit eda88555909eb7d589d690ba309b90ff956623b8[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Apr 14 16:09:27 2013 +0800
+
+    Add vim-javascript plugin
+
+[33mcommit 90997a2ccab678a3f60d51f51b3cbfe43a910c0e[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Apr 14 11:18:47 2013 +0800
+
+    javascript taglist
+
+[33mcommit a9f31a5458dc7fcce8821947ddf12a3ebfe7f99f[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Apr 14 02:11:06 2013 +0800
+
+    README for zen-coding
+
+[33mcommit 292c42b2aba6bc193fbc666207e29afe412b8946[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 11 00:28:07 2013 +0800
+
+    Replaced Ack with Ag
+
+[33mcommit 49493575025982dc5faea052a974b5b526152540[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Mar 12 02:06:39 2013 +0800
+
+    Adjusted mapping
+
+[33mcommit 954c60af9acbaf31e4b6a26a391488c0d51635c0[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Mar 12 02:05:27 2013 +0800
+
+    Actully I never use it
+
+[33mcommit e9240df6952708780c2470d6e8d22e9682347a9d[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Mar 4 19:42:31 2013 +0800
+
+    Replace vim-indent-guides with indent-line
+    
+    This reverts commit f4bb156436978a0c0c87ea4d0e6da1f715bde6c1.
+    
+    Conflicts:
+    	.gitmodules
+
+[33mcommit fae6068a84c38e299e9705cd058fba1aafbf97aa[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jan 27 04:15:15 2013 +0800
+
+    Updated snipmate
+
+[33mcommit bbf322002b5904ce39da69631b8e5f1e35a864fd[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jan 27 03:54:21 2013 +0800
+
+    Added snippets support functions
+
+[33mcommit b17cb1609c947a4abc0c38b82802d450dec93115[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Jan 23 21:37:54 2013 +0800
+
+    Added zencoding plugin
+
+[33mcommit 084446ee32af68bb94c4f6709149547250d64e42[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Jan 21 15:50:35 2013 +0800
+
+    updated README
+
+[33mcommit 736f6f9d6d5f8dbda35506945a9d194e366dd319[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jan 6 13:52:59 2013 +0800
+
+    update snipmate
+
+[33mcommit 1f9a3c8bcd6c943e94e5bb737b06846aa44a3181[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jan 6 13:50:27 2013 +0800
+
+    replaced git-vim with fugitive
+
+[33mcommit bc4a980c1b296fb4a462a6ee266422dff7d3eeab[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 15:15:33 2013 +0800
+
+    Upgraded ctrlp
+
+[33mcommit b78e54a5ebe110d132546e7c85f716cdbdf9342e[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 15:11:03 2013 +0800
+
+    Upgraded ack
+
+[33mcommit 46ee1d98d305fea4a83abe3194c844dadba9c567[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 15:04:49 2013 +0800
+
+    Upgraded vim-rails
+
+[33mcommit 06f9f8b044e9d69715b4dbf348a75f9a319b2613[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 14:57:37 2013 +0800
+
+    Upgraded Bufexplorer
+
+[33mcommit 3fe1e4f5d08777b549ad612e23bb87d3911aad05[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 14:52:53 2013 +0800
+
+    Upgraded vim-repeat
+
+[33mcommit db9cf86a26ea44de78c86a88f496b4653ed6ab53[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 14:48:48 2013 +0800
+
+    Upgraded Surround
+
+[33mcommit c5d9a218899a59a6cbf922285200081a8e2d6497[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 14:41:39 2013 +0800
+
+    Upgrade NERDtree
+
+[33mcommit 5397dacd86a32d1c54a942d850ec6b49658ea64e[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 5 14:35:40 2013 +0800
+
+    Upgraded NERDcommenter
+
+[33mcommit 20a4dbbc9650f326300ceea376931572fe4034db[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Dec 25 13:59:46 2012 +0800
+
+    Added tabular plugin
+
+[33mcommit b42938d6dcb0bee998442518818055c68f423df9[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Dec 25 13:28:56 2012 +0800
+
+    adjusted gvimrc
+
+[33mcommit 93dfe59cf57fdd07775a42697cf9212be9efb309[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Dec 12 11:58:52 2012 +0800
+
+    updated README
+
+[33mcommit ff340dd1c32f5425733646cea17faba4ab5d98c8[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Dec 2 15:08:09 2012 +0800
+
+    [Add] ToggleWord plugin
+
+[33mcommit eb45b7af718a58dc1fdb0250fd8387e0720b5b9d[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Nov 29 01:52:39 2012 +0800
+
+    updated README
+
+[33mcommit 6a1af44a884ce03c8963aea2504c01f00c614cea[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Nov 29 00:24:30 2012 +0800
+
+    updated snipmate
+
+[33mcommit d4f0b26ebec3bae6f46a6b34f8f512fa1e347640[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Nov 29 00:24:03 2012 +0800
+
+    adjusted .gitignore
+
+[33mcommit 2a0012679044c43d128a4529503796f823bdbe42[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Nov 29 00:21:08 2012 +0800
+
+    no longer need this key map
+
+[33mcommit 3ec6cde968f716fe7bfbfe2bfc0328adb746dbf1[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Nov 17 23:22:46 2012 +0800
+
+    added submodule slim-vim
+
+[33mcommit e06387c2c8963236ae0b54773081fd56a2fcfafe[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Nov 15 11:17:11 2012 +0800
+
+    no longer map CTRL-C/CTRL-V as Copy/Paste
+
+[33mcommit f4bb156436978a0c0c87ea4d0e6da1f715bde6c1[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Fri Nov 2 15:01:56 2012 +0800
+
+    added submodule vim-indent-guides
+
+[33mcommit d1434a55d0810b69ffc3bc67a5df54e2168c1c3f[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Oct 20 17:13:15 2012 +0800
+
+    revised README
+
+[33mcommit dccd51a405f4679e4ec9a0db83afb585d3d37405[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Oct 18 15:09:39 2012 +0800
+
+    try to fix TagList plugin
+
+[33mcommit 546bb7b3116bb42e79a648f56aa46935629d9224[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Oct 18 15:03:13 2012 +0800
+
+    updated snipmate submodule
+
+[33mcommit c3b67d55c51125f3f3a6d124ea6a9de9114578d1[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Oct 18 15:00:13 2012 +0800
+
+    now can copy the file relative/absoulte path to the clipboard
+
+[33mcommit a01ab234296df1b3d9490037329436b2c3f55f22[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Aug 14 22:25:22 2012 +0800
+
+    updated snipmate submodule
+
+[33mcommit 5d5fbd08768a72202a898b54c58e4ed00c70dee8[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Jul 30 11:09:01 2012 +0800
+
+    updated snipmate
+
+[33mcommit 6320e4e1085d536ff8634b72fb202ed0d77b70d5[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Jul 30 10:52:54 2012 +0800
+
+    updated snipmate
+
+[33mcommit c2ac53995269dfd475ef741b979c094739c7e876[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Jul 30 02:14:32 2012 +0800
+
+    fixed incorrect link in README.md
+
+[33mcommit 855b2b1a5c65f0e49db71fbc5e3f66b2d5ea6b1e[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Jul 30 02:11:52 2012 +0800
+
+    added ZoomWin plugin
+
+[33mcommit 8dd5f204ade0f88ce91ade670a884f6c2e24c90a[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Jul 30 01:30:47 2012 +0800
+
+    added ctrlP plugin
+
+[33mcommit 0ca2b07c785c55dc13fd40f271f94f37d064bb12[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Jul 18 00:50:39 2012 +0800
+
+    removed yankring shortcut
+
+[33mcommit a47a26b5b81a2e6c306aaa8fe3c74e8fc9448dc4[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Jul 16 00:54:56 2012 +0800
+
+    updated README.md
+
+[33mcommit ac48f57ec91f9384d5f5440933d7b4b6e5c9ac04[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 21:49:40 2012 +0800
+
+    updated README.md
+
+[33mcommit 67942cd9f35de0207805b67a30ba74eaf2aa7280[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 21:38:35 2012 +0800
+
+    fixed README.md
+
+[33mcommit 132e4fd6b71a3e063af6fa807dbb50a9d8724b2e[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 21:35:27 2012 +0800
+
+    updated README.md
+
+[33mcommit 9b2545927799ee1cbd2927a58e891d07e4246e68[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 21:27:39 2012 +0800
+
+    removed yankring plugin
+
+[33mcommit 75e77795fcce0b605d38d386a661d68e5b7b7718[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 20:23:16 2012 +0800
+
+    updated delimitMate submodule
+
+[33mcommit bd72ca8ee4ae5f9c76cbc9349c53286d3e9f40e6[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 20:21:37 2012 +0800
+
+    updated vim-repeat submodule
+
+[33mcommit 0c541277a777a4c962ead04e49e81b281cae3253[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 20:12:24 2012 +0800
+
+    updated vim-haml submodule
+
+[33mcommit f16153eb7bb9810ddb5bcc644d533c777be861e8[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 20:08:27 2012 +0800
+
+    updated surround submodule
+
+[33mcommit 54051914b6c903d3a509ef46466232c3a02985b2[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 20:07:09 2012 +0800
+
+    updated NERDcommenter submodule
+
+[33mcommit 11d4b3357f79f4482086d0c96b7fc60500662192[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 20:04:07 2012 +0800
+
+    updated git-vim submodule
+
+[33mcommit 9ace3f0273a62d450c2fe885f7db1709be4218c0[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sun Jul 15 19:57:33 2012 +0800
+
+    auto save files when focus is lost
+
+[33mcommit 7a5c89825093f2180cdbecdadaa096528b6a0648[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Jul 11 11:58:51 2012 +0800
+
+    added Mac-style cursor-control shortcut
+
+[33mcommit 9035a2a57d3d49ebd5746212120f88817fc0cab2[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Fri Jul 6 14:49:36 2012 +0800
+
+    updated README.md
+
+[33mcommit 967be897fb602bbae29a1b0422d9779d06a21e6d[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Fri Jul 6 00:23:13 2012 +0800
+
+    map F7 to :NERDTreeFind
+
+[33mcommit 57f04c7337b853b5837566712a0b688471a0ac7c[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Jun 14 18:19:49 2012 +0800
+
+    adjusted font size
+
+[33mcommit 9fa116301e46f0cef06e806549a851f507c39390[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 19 01:29:08 2012 +0800
+
+    fixed README
+
+[33mcommit a1d8be68061e274db03193216bff01eb4b893598[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 12 11:12:17 2012 +0800
+
+    fixed README
+
+[33mcommit a3b79b1cea0cdb0f2f0b767f0d826163bdce6913[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 12 11:10:29 2012 +0800
+
+    converted README formatting to markdown
+
+[33mcommit 8dc78c47feb95f3e436e058563ab68da5d190013[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 12 10:50:06 2012 +0800
+
+    added keyboard shortcuts introduction in README
+
+[33mcommit 5e253080e9ee586c1fdef7b280eb05fe0fad56f7[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 12 10:49:28 2012 +0800
+
+    removed Rails shortcuts
+
+[33mcommit f5c8bdb51cd061e1c289e479a7fbe8ac8fdafa29[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 12 09:44:23 2012 +0800
+
+    added easymotion plugin
+
+[33mcommit 2fd06ff5a8d1130c6eaa07ab3632e13f737feba5[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Apr 12 01:46:20 2012 +0800
+
+    added matchit plugin
+
+[33mcommit e2a4923d749506aecbafac62795ee12f45e9dbd0[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 11 15:13:32 2012 +0800
+
+    updated plugins from submodule
+
+[33mcommit fb7b272358da067c9f73f43e617a07524167116f[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 11 15:07:53 2012 +0800
+
+    replaced original snipppets with https://github.com/scrooloose/snipmate-snippets
+
+[33mcommit 2ae05ca7852f394471919579d183b14412190f81[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 11 15:00:19 2012 +0800
+
+    added snipmate
+
+[33mcommit 3fd601d0efaf48200bfa5f9373a386facc51bc8a[m
+Merge: a214966 9134295
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 11 14:54:33 2012 +0800
+
+    [Merge] removed vim-snipmate and it's dependencies
+
+[33mcommit 91342959c9969f3cd401d37c10fe926b983cf824[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 11 14:28:05 2012 +0800
+
+    Revert "added submodule vim-snipmate"
+
+[33mcommit fd618eb0ea87ef9eb12b34b5fbffa649a25139da[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 11 14:25:24 2012 +0800
+
+    Revert "added vim-snipmate's dependencies"
+    
+    This reverts commit f2ee6c9f4e4b74e869846f0c91a3d4611ddacd92.
+    
+    Conflicts:
+    
+    	.gitmodules
+
+[33mcommit 1cb93182f79012d0e7509a1ffdc0f1831d47d64c[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 11 14:23:32 2012 +0800
+
+    Revert "updated README commit: c1b934b"
+    
+    This reverts commit c1b934be83ac026e65acfe9149427777311e4af3.
+
+[33mcommit a214966d861607198c72889b74f69be23b403c55[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Apr 4 11:02:17 2012 +0800
+
+    added delimitMate plugin
+
+[33mcommit 1347e5c077f282da8885048fd539266f40ff350d[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Apr 3 13:27:22 2012 +0800
+
+    an error will occur if type a capital
+
+[33mcommit 9c017863dd14135124c3eda017995aae7ad7f93a[m
+Merge: 3ea0f61 c1b934b
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Mar 22 23:23:19 2012 +0800
+
+    replaced snipmate with vim-snipmate
+
+[33mcommit c1b934be83ac026e65acfe9149427777311e4af3[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Mar 22 23:23:14 2012 +0800
+
+    updated README
+
+[33mcommit f2ee6c9f4e4b74e869846f0c91a3d4611ddacd92[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Mar 22 22:52:03 2012 +0800
+
+    added vim-snipmate's dependencies
+
+[33mcommit a09610f3266a979eeff23ed9597bc613b802135b[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Mar 22 22:46:39 2012 +0800
+
+    added submodule vim-snipmate
+
+[33mcommit 5b2fb9c4d705d1d9d67c8d62a4fe368a250a17ef[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Mar 22 22:34:07 2012 +0800
+
+    removed snipmate
+
+[33mcommit 3ea0f611613b3c8bcde487c620b880fdeb96214b[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Mon Mar 5 13:50:02 2012 +0800
+
+    add MacVim configuration file
+
+[33mcommit 8e25d92e8e5a14f4d78142dabc93f34aa02f87a7[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 28 18:18:52 2012 +0800
+
+    update README
+
+[33mcommit 1bbcf24963ec43933eb6f7c8477261e0bf947047[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Sat Jan 28 18:04:09 2012 +0800
+
+    update vimrc
+
+[33mcommit 5268829a0d02696582bb80d1ff182fddcd9e802f[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Dec 7 10:30:38 2011 +0800
+
+    add repeat plugin
+
+[33mcommit eb04fe95e19fcd4ea28fc17b389b1e3d8e69fae4[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Dec 7 10:12:23 2011 +0800
+
+    add css-color plugin
+
+[33mcommit 6c2bbc3f240f468df8e632713975262bb5f4491f[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Dec 7 10:10:56 2011 +0800
+
+    enable AutoComplPop for snipMate completion
+
+[33mcommit 6761862dd8227fe1c6d14053d0c6fa141a2613b1[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Dec 7 09:40:45 2011 +0800
+
+    add vim-haml submodule
+
+[33mcommit 2084741a5e58893f5322a34fa0e5362dfb722780[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Dec 7 09:29:55 2011 +0800
+
+    add AutoComplPop plugin
+
+[33mcommit 63268b0964a63b97af29e8b8e764fe2bd0f869da[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Dec 7 08:42:15 2011 +0800
+
+    add Rails shortcuts
+
+[33mcommit 1a64748f8d0701fb51f99303927fda3dd225cb92[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Tue Dec 6 22:46:48 2011 +0800
+
+    setup Rails shortcuts
+
+[33mcommit 7f3edd808361954a60925c78165cd5821ebfbd17[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Fri Dec 2 13:00:52 2011 +0800
+
+    add monokai colorscheme
+
+[33mcommit dedd9cb459aff8d257d84602aa0df11b18a20f23[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Nov 23 19:35:04 2011 +0800
+
+    update README
+
+[33mcommit 31fe18e24cd761cfc715c23da4c3dfe26a35d56d[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Wed Nov 9 15:36:23 2011 +0800
+
+    use pathogen to manage plugins
+
+[33mcommit 88816c0c6c247b37d975f025f5a3a68f28ca5160[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Oct 27 20:14:16 2011 +0800
+
+    highlight cursor column and line
+
+[33mcommit 5ab58fb887703e52d77b4d59791f98e39e77daf7[m
+Author: HungYuHei <kongruxi@gmail.com>
+Date:   Thu Oct 27 18:04:55 2011 +0800
+
+    change F8 to :NERDTreeToggle
+
+[33mcommit 9f51cc91fdc1addde92bbffa8692b4d1c37cbeb8[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Thu Oct 13 11:02:34 2011 +0800
+
+    fix duplicate mapping
+
+[33mcommit c6c107da18b38feae8223b754663ac33f4025693[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 23:51:22 2011 +0800
+
+    fix README
+
+[33mcommit 55e047a8356c0a7be395167260cd3e65f1fcdc1b[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 23:41:52 2011 +0800
+
+    map <leader>y to Display the contents of the yankring
+
+[33mcommit 2072e68be9d1baf35cdfc1a70d37c74a5f1c4bb9[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 23:38:42 2011 +0800
+
+    add YankRing plugin
+
+[33mcommit 93cf9315e6825de350d36979342bf393d4d8152b[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 23:18:39 2011 +0800
+
+    map <leader>a to :Ack
+
+[33mcommit ecd2bf20a4a4d0f9c28ef91e75ddfb97287c6f12[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 23:16:38 2011 +0800
+
+    add Ack plugin
+
+[33mcommit c415d90d7e2cc0bf0f24ee5b6f0c51db17b987e0[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 22:43:39 2011 +0800
+
+    map <leader>v to reselect the text that was just pasted
+
+[33mcommit abbc8fe6b08159017cc4e9ab562539fb22307efd[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 22:35:32 2011 +0800
+
+    map <leader>W to strip all trailing whitespace in the current file
+
+[33mcommit f0c4e419e0a288b1b2ba8991a8696d2d69f3de2e[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 22:21:50 2011 +0800
+
+    map <leader>v to vertical split
+
+[33mcommit ac3f6d34acaf5bd84d664b29421f2c9d5e0f7861[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Oct 12 22:20:49 2011 +0800
+
+    map <leader>s to horizontal split
+
+[33mcommit 146d1880de1af29ba0ccece3e61306d2bb9962b3[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Thu Sep 29 21:40:55 2011 +0800
+
+    fix README
+
+[33mcommit c2b426b6035c9f12351de976b1f9a5540b808f0e[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Fri Sep 16 20:27:33 2011 +0800
+
+    fix README
+
+[33mcommit 051f940a6bb0b23893ed08ce33d0209f80f1a7bd[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Fri Sep 16 13:08:03 2011 +0800
+
+    update README
+
+[33mcommit 95fb8b0adb31585eaea42557228a4fee6ebd604f[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Fri Sep 16 12:54:49 2011 +0800
+
+    map <tab> <shift-tab> to indent
+
+[33mcommit a5c4be5d33f73c67587228c1bcd85273e690cf74[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Wed Aug 24 17:55:36 2011 +0800
+
+    add AutoClose plugin
+
+[33mcommit fde9bc1d77a9baa0f81dc88bfd271d447cdaa42b[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Fri Aug 19 22:23:30 2011 +0800
+
+    update README
+
+[33mcommit 4dd474a700028d245ddf4ed9c0b2e732df163e5d[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Fri Aug 19 22:18:07 2011 +0800
+
+    add Command-T plugin
+
+[33mcommit 8900dfba75b82cf3b5afc35299e9e212ce494473[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Fri Aug 19 20:49:46 2011 +0800
+
+    maps <F2> to toggle "paste model"
+
+[33mcommit 688ed5fe49741709a8b5c8c55948198b802dd1b7[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Thu Aug 18 20:41:13 2011 +0800
+
+    update README
+
+[33mcommit d439905a8b582f22ba846f2c07643cfb4f7bb509[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Thu Aug 18 18:20:20 2011 +0800
+
+    fix textile syntax
+
+[33mcommit 4c18284021952cec5fb50b64c4275f9af2caee08[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Thu Aug 18 16:39:32 2011 +0800
+
+    update README
+
+[33mcommit 082c59a17c7d908d6c3449a7747d11f73462e5dd[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Tue Jun 28 21:42:39 2011 +0800
+
+    add git-vim plugin
+
+[33mcommit fa919b1c549b93707eac79728e4759c7225aca4a[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sun Jun 5 12:41:35 2011 +0800
+
+    add submodule snipmate-snippets from https://github.com/scrooloose/snipmate-snippets.git
+
+[33mcommit ef19a703ae596886afa85e767c10fbed7c4c7e06[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sun Jun 5 10:37:02 2011 +0800
+
+    add Taglist
+
+[33mcommit c3e6b4b60583c2324e29902e19577df421c12165[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sat Jun 4 23:07:30 2011 +0800
+
+    add surround
+
+[33mcommit afc938c3979580968428f1748a4a6e2ac5e86b43[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sat Jun 4 22:37:29 2011 +0800
+
+    add bufexplorer
+
+[33mcommit 1ed42d1ed5bed29ebf1d72becf03d0ce1206d257[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sat Jun 4 22:15:45 2011 +0800
+
+    增加Ctrl+jkhl映射来切换窗口区域
+
+[33mcommit 0045185ebf9c6c7a092023c313094cc5eb930d7a[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sat Jun 4 21:49:52 2011 +0800
+
+    add NERD_commenter
+
+[33mcommit 24b335cbb8d37384afc7f25a3ca725ec606d0a01[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sat Jun 4 21:32:45 2011 +0800
+
+    set <leader> as ","
+
+[33mcommit a595fb90e88591cfdb1e8fda7ef080e8fccc9b35[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sat Jun 4 19:41:15 2011 +0800
+
+    add README
+
+[33mcommit d074c3af4db37af4db5d99f37e6db08b9c69bc33[m
+Author: HungHuHei <kongruxi@gmail.com>
+Date:   Sat Jun 4 19:03:38 2011 +0800
+
+    initialize
