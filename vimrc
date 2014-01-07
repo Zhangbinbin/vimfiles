@@ -124,8 +124,8 @@ nnoremap <leader>grsh :Git reset HEAD :%<CR>
 " CoffeeScript
 nnoremap <leader>cf :CoffeeCompile<CR>
 
-"colorscheme blackboard  " 使用blackboard插件的配色
-colorscheme monokai
+colorscheme blackboard  " 使用blackboard插件的配色
+"colorscheme monokai
 
 " taglist插件配置
 let Tlist_Show_One_File=1    " 不同时显示多个文件的tag，只显示当前文件的
