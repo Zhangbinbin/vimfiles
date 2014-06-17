@@ -49,8 +49,8 @@ set ruler "打开状态栏标尺"
 " 设置缩进
 set expandtab
 set smarttab
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 
 " 映射 Mac 风格的光标控制
 inoremap <C-e> <END>
