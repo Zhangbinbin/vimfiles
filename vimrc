@@ -67,7 +67,7 @@ map <F7> :NERDTreeFind<CR>
 " NERDTree插件开关
 map <F8> :NERDTreeToggle<CR>
 " F9启动taglist插件
-nnoremap <silent> <F9> :TlistToggle<CR>
+nnoremap <silent> <F9> :Tlist<CR>
 " 在文件名上按gf时，在新的tab中打开
 " map gf :tabnew <cfile><cr>
 " Tab和Shift-Tab缩进
@@ -146,7 +146,7 @@ set runtimepath^=~/.vim/bundle/ctrlp
 let g:ctrlp_working_path_mode = 2
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,.DS_Store  " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags' " hard code here, maybe only works on my Mac
+let Tlist_Ctags_Cmd='/usr/bin/ctags' " hard code here, maybe only works on my Mac
 
 " javascript taglist
 let g:tlist_javascript_settings = 'javascript;s:string;a:array;o:object;f:function'
