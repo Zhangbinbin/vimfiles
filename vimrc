@@ -1,15 +1,93 @@
+" 当前编辑的文件编码方式
+set fileencoding=utf-8
 
-call pathogen#infect()
+" vim 内部使用的字符编码方式
+set encoding=utf-8
 
-syntax on       " 语法高亮
-filetype plugin indent on  " 文件类型检测
-filetype plugin on
-autocmd BufEnter * :syntax sync fromstart
-let mapleader=","
-au FocusLost * :up " auto save files when focus is lost
+" vim启动时会按照所列出的字符编码方式逐一探测,并且将 fileencoding 设置为最终探测到的字符编码方式。因此最好将 Unicode 编码方式放到这个列表的最前面，将拉丁语系编码方式 latin1 放到最后面。
+set fileencodings =utf-8,gbk,latin1
 
-set nocompatible    " 关闭兼容模式
-set autoindent      " 打开自动缩,继承前一行的缩进方式，特别适用于多行注释
+set langmenu=zh_CN.UTF-8
+language message zh_CN.UTF-8
+
+"change this back later
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+"""vundle可以管理多种类型仓库
+" alternatively, pass a path where Vundle should install plugins
+"let path = '~/some/path/here'
+"call vundle#rc(path)
+
+
+" The following are examples of different formats supported.
+" Keep Plugin commands between here and filetype plugin indent on.
+" scripts on GitHub repos
+""其一
+" let Vundle manage Vundle, required
+Plugin 'gmarik/vundle'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-rails.git'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/syntastic'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'Yggdroot/indentLine'
+
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+" scripts from http://vim-scripts.org/vim/scripts.html
+" 其二:来自vim-scripts
+Plugin 'L9'
+Plugin 'FuzzyFinder'
+Plugin 'Markdown'
+
+" scripts not on GitHub
+" 其三,来自其他git仓库
+Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+"Plugin 'file:///home/"zbb/.vim/bundle/vundle'
+" ...
+
+"所有的插件必须在
+"call vundle#rc()与下一行之间声明
+filetype plugin indent on     " required
+
+"""""接下来是我们自己的vim配置部分
+"""""
+" 语法高亮
+syntax on       
+" when vimrc is edited, reload it
+autocmd! bufwritepost .vimrc source ~/.vimrc 
+
+"定义c-hotkeys的mapleader快捷键
+"这是最近才明白
+let mapleader = ","
+
+
+"""""""""""""""ycm setting"""""""""""""""""""
+"这是youcompleme插件的特殊配置,需要随后进一步验证
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_confirm_extra_conf=0
+let g:ycm_collect_identifiers_from_tag_files = 1
+
+" 打开自动缩进,继承前一行的缩进方式，特别适用于多行注释
+set autoindent      
+" 设置缩进
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+
 set nu              " 显示行号
 set showcmd         " 显示命令
 set noswapfile      " 不使用swp文件
@@ -29,129 +107,5 @@ set mouse=a         " 在所有模式下都允许使用鼠标，还可以是n,v,
 set guioptions-=R   " 隐藏右边滚动条
 set formatoptions+=mM   " 正确地处理中文字符的折行和拼接
 set whichwrap+=<,>,h,l  " 退格键和方向键可以换行
-"
-" 当前编辑的文件编码方式
-set fileencoding=utf-8
 
-" vim 内部使用的字符编码方式
-set encoding=utf-8
 
-" vim启动时会按照所列出的字符编码方式逐一探测,并且将 fileencoding 设置为最终探测到的字符编码方式。因此最好将 Unicode 编码方式放到这个列表的最前面，将拉丁语系编码方式 latin1 放到最后面。
-set fileencodings =utf-8,gbk,latin1
-
-set langmenu=zh_CN.UTF-8
-language message zh_CN.UTF-8
-set pastetoggle=<F10>    " 切换粘贴模式
-set ruler "打开状态栏标尺"
-"set list
-"set listchars=tab:▸\ ,eol:¬
-
-" 设置缩进
-set expandtab
-set smarttab
-set shiftwidth=4
-set tabstop=4
-
-" 映射 Mac 风格的光标控制
-inoremap <C-e> <END>
-inoremap <C-a> <HOME>
-inoremap <C-f> <Right>
-inoremap <C-b> <Left>
-
-" ^z快速进入shell
-nmap <C-Z> :shell<cr>
-" 把空格键映射成:
-nmap <space> :
-" 在NERDTree显示对应文件位置
-map <F7> :NERDTreeFind<CR>
-" NERDTree插件开关
-map <F8> :NERDTreeToggle<CR>
-" F9启动taglist插件
-nnoremap <silent> <F9> :Tlist<CR>
-" 在文件名上按gf时，在新的tab中打开
-" map gf :tabnew <cfile><cr>
-" Tab和Shift-Tab缩进
-nmap <tab> v>
-nmap <s-tab> v<
-vmap <tab> >gv
-vmap <s-tab> <gv
-
-" strip all trailing whitespace in the current file
-nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
-" reselect the text that was just pasted
-nnoremap <leader>V V`]
-" 水平分割窗口
-nnoremap <leader>s <C-w>s
-" 垂直分割窗口
-nnoremap <leader>v <C-w>v
-" Ag
-nnoremap <leader>a :Ag
-" highlight cursor column
-nnoremap <leader>lc :set cursorcolumn!<CR>
-" highlight cursor line
-nnoremap <leader>ll :set cursorline!<CR>
-
-nnoremap <leader>ms :set colorcolumn=80<CR>
-nnoremap <leader>mh :set colorcolumn=0<CR>
-
-" toggle between one window and multi-window (ZoomWin plugin)
-map <leader>z <C-w>o
-
-" ToggleWord plugin
-nmap <leader>t :ToggleWord<CR>
-
-" zen-coding
-map <leader>c <C-y>
-
-" 窗口区域切换,Ctrl+jkhl 来切换
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-
-" copy the file relative/absoulte path to the clipboard
-nmap <F5> :let @*=expand("%")<CR>
-nmap ,cp :let @*=expand("%:p")<CR>
-
-" map shortcuts for fugittive
-nnoremap <leader>ga :Gwrite<CR>
-nnoremap <leader>gs :Gstatus<CR>
-nnoremap <leader>gco :Gread<CR>
-nnoremap <leader>gcm :Gcommit<CR>
-nnoremap <leader>gdf :Gdiff<CR>
-nnoremap <leader>grsh :Git reset HEAD :%<CR>
-
-" CoffeeScript
-nnoremap <leader>cf :CoffeeCompile<CR>
-
-colorscheme blackboard  " 使用blackboard插件的配色
-"colorscheme monokai
-
-" taglist插件配置
-let Tlist_Show_One_File=1    " 不同时显示多个文件的tag，只显示当前文件的
-let Tlist_Exit_OnlyWindow=1  " 如果taglist窗口是最后一个窗口，则退出vim
-let Tlist_Use_Right_Window=1 " 在右侧窗口中显示taglist窗口
-
-" AutoComplPop
-"let g:AutoComplPop_Behavior = {
-"\ 'c': [ {'command' : "\<C-x>\<C-o>",
-"\ 'pattern' : ".",
-"\ 'repeat' : 0}
-"\ ]
-"\}
-"let g:acp_behaviorSnipmateLength=1
-
-" ctrlp
-set runtimepath^=~/.vim/bundle/ctrlp
-let g:ctrlp_working_path_mode = 2
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,.DS_Store  " MacOSX/Linux
-let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
-let Tlist_Ctags_Cmd='/usr/bin/ctags' " hard code here, maybe only works on my Mac
-
-" javascript taglist
-let g:tlist_javascript_settings = 'javascript;s:string;a:array;o:object;f:function'
-
-" javascript indentation in html
-let g:html_indent_inctags = "html,body,head,tbody"
-let g:html_indent_script1 = "inc"
-let g:html_indent_style1 = "inc"
