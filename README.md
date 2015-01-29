@@ -3,8 +3,10 @@
 ## Intallation
 1. Backup your current setting
 2. Create new vim setting folder and clone my repository
+
     mkdir -p ~/.vim/bundle
     git clone git@github.com:Zhangbinbin/vimfiles.git
+
 3. Refer to the following links and diy your vim
 3. Enjoy it. 
 
