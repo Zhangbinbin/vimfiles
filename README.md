@@ -1,17 +1,16 @@
 # 利用bundle管理vim插件
 
 ## Intallation
-1. Backup your current setting
-2. Create new vim setting folder and clone my repository
-
-    mkdir -p ~/.vim/bundle
-    git clone git@github.com:Zhangbinbin/vimfiles.git
-
-3. Refer to the following links and diy your vim
-3. Enjoy it. 
+1. mv ~/.vimrc ~/.vimrcbk
+2. mv ~/.vim ~/.vimbk
+3. mkdir ~/.vim
+4. git clone git@github.com:Zhangbinbin/vimfiles.git ~/.vim
+5. ln -s vimrc ~/.vimrc 
+6. Enjoy it
 
 
-## 参考链接
+
+## Refer to the following links and diy your vim
 
  1.[How To Use Vundle to Manage Vim Plugins on a Linux](https://www.digitalocean.com/community/tutorials/how-to-use-vundle-to-manage-vim-plugins-on-a-linux-vpsgg)
 
