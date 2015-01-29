@@ -1,5 +1,10 @@
 # 利用bundle管理vim插件
 
+## Intallation
+1. Backup your current setting
+2. Create 
+
+
 ## 参考链接
 
  1.[How To Use Vundle to Manage Vim Plugins on a Linux](https://www.digitalocean.com/community/tutorials/how-to-use-vundle-to-manage-vim-plugins-on-a-linux-vpsgg)
@@ -10,17 +15,10 @@
 
 ## ArchLinux特殊配置,详细步骤请参照链接2 
 
+    cd ~
+    mkdir ycm_build
+    cd ycm_build
+    cmake -G "Unix Makefiles" -DEXTERNAL_LIBCLANG_PATH=/usr/lib/libclang.so. ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+    make ycm_support_libs
 
-```bash
-cd ~
-
-mkdir ycm_build
-
-cd ycm_build
-
-cmake -G "Unix Makefiles" -DEXTERNAL_LIBCLANG_PATH=/usr/lib/libclang.so. ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
-
-make ycm_support_libs
-
-```
 

@@ -37,6 +37,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'Yggdroot/indentLine'
+Plugin 'ajh17/Spacegray.vim'
 
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
@@ -47,6 +48,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'L9'
 Plugin 'FuzzyFinder'
 Plugin 'Markdown'
+"Plugin 'falmouth'
 
 " scripts not on GitHub
 " 其三,来自其他git仓库
@@ -108,4 +110,6 @@ set guioptions-=R   " 隐藏右边滚动条
 set formatoptions+=mM   " 正确地处理中文字符的折行和拼接
 set whichwrap+=<,>,h,l  " 退格键和方向键可以换行
 
-
+""""color setting""""
+colorscheme spacegray
+"colorscheme falmouth
